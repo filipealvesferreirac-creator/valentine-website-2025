@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Teresa",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Gostas de mim?",                                    // First interaction
+            yesBtn: "Sim",                                             // Text for "Yes" button
+            noBtn: "Não, sou banana",                                               // Text for "No" button
+            secretAnswer: "Amo-te muito muito muito muito. És carinhoso, simpático, carismático, bonito, engraçado, sexy, inteligente, ÉS O MEU REI! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Quanto é que me amas?",                          // For the love meter
+            startText: "Isto!",                                   // Text before the percentage
+            nextBtn: "Próximo ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: " Queres ser o meu date no dia dos namorados?🌹", // The big question!
+            yesBtn: "Sim!",                                             // Text for "Yes" button
+            noBtn: "Não, hoje não tomei banho e os meus pés são feios"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "Assim sim 🥰🚀💝",  // Shows when they go past 5000%
+        high: " Ainda não ta fixe, continua ❗❗ ",              // Shows when they go past 1000%
+        normal: "Só isso...😔😔"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: " Sou a pessoa mais sortuda do mundo por te ter 💓",
+        message: " Amo-te muito meu amor 💞 💘 💖",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -70,7 +70,7 @@ const CONFIG = {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 1.9        // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
@@ -78,10 +78,10 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        musicUrl: "https://res.cloudinary.com/dw8oolu9u/video/upload/v1770004692/Video_Project_fils_online-audio-converter.com_ztqymr.mp3", // Music streaming URL
+        startText: "🎵 OUVE A MUSICA",        // Button text to start music
+        stopText: "🔇 para a música...",         // Button text to stop music
+        volume: 0.7                      // Volume level (0.0 to 1.0)
     }
 };
 
