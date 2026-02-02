@@ -30,7 +30,7 @@ const CONFIG = {
         second: {
             text: "Quanto é que me amas?",                          // For the love meter
             startText: "Isto!",                                   // Text before the percentage
-            nextBtn: "Próximo ❤️"                                         // Text for the next button
+            nextBtn: "Clica aqui goofy ass woman"                                         // Text for the next button
         },
         third: {
             text: " Queres ser o meu date no dia dos namorados?🌹", // The big question!
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: " Sou a pessoa mais sortuda do mundo por te ter 💓",
-        message: " Amo-te muito meu amor 💞 💘 💖",
+        message: " Amo-te muito meu amor 💞",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -69,7 +69,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "0.3s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.9        // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
